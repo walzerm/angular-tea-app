@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div ng-repeat="tea in teas">
+            <div class="display">
+                <img src="{{ tea.imageUrl }}" alt="tea image" />
+            </div>
+            <div class="display">
+                <p>{{ tea.name }}</p>
+                <p>{{ tea.ingredients }}</p>
+                <p>{{ tea.caffeineScale }}</p>
+                <p>{{ tea.price }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
